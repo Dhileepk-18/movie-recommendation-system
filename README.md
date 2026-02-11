@@ -1,13 +1,12 @@
-# 🎬 CineBook - Movie Recommendation & Booking System
+# 🎬 CineBook - Movie Recommendation  System
 
-A modern, dark-themed movie booking platform with personalized recommendations, interactive seat selection, and star ratings.
+A modern, dark-themed movie platform with personalized recommendations, interactive seat selection, and star ratings.
 
 ## 📋 Project Overview
 
 CineBook is a fully responsive web application that allows users to:
 - **Discover movies** based on personalized preferences
 - **Rate movies** with a 5-star rating system
-- **Book tickets** with an intuitive seat selection interface
 - **Manage accounts** with login and registration
 - **Get recommendations** based on genre, language, and mood preferences
 
@@ -38,7 +37,6 @@ frontend/
 ├── script.js         → Interactive features (600+ lines)
 └── assets/
     ├── posters/      → Movie poster images
-    └── icons/        → Icon assets
 ```
 
 ## 🎯 Core Features
@@ -145,26 +143,6 @@ userSession = {
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 - No backend server required (frontend-only)
 
-### Installation
-
-1. **Download/Clone the project**
-   ```bash
-   git clone <repository-url>
-   cd movie-booking-system/frontend
-   ```
-
-2. **Open in browser**
-   - Option A: Double-click `index.html`
-   - Option B: Use Live Server (VS Code extension)
-   - Option C: Use Python HTTP server
-     ```bash
-     python -m http.server 8000
-     ```
-
-3. **Access the application**
-   - `http://localhost:8000` (if using server)
-   - Or file path directly in browser
-
 ## 📖 User Workflow
 
 ### First-Time User
@@ -173,25 +151,12 @@ userSession = {
 3. Click "Create Account" → Register with email
 4. Browse filtered movies → See personalized recommendations
 5. Click on movie → View details
-6. Click "Book" → Select seats and confirm
 
 ### Returning User
 1. Click "Login" → Enter credentials
 2. Browse movies with saved preferences
 3. Rate movies
-4. Book tickets with seat selection
 
-## 🎬 Movie Database
-
-Pre-loaded with 8 movies:
-- **Cosmic Nexus** - Sci-Fi (Thrilling)
-- **Heart's Desire** - Romance (Emotional)
-- **Shadow Chase** - Action (Thrilling)
-- **Mystery Manor** - Thriller (Suspenseful)
-- **Laughter Fest** - Comedy (Fun)
-- **Dragon's Realm** - Fantasy (Adventurous)
-- **Ocean's Tale** - Drama (Emotional)
-- **Space Escape** - Sci-Fi (Thrilling)
 
 ## 🎨 CSS Highlights
 
@@ -221,7 +186,6 @@ Uses `localStorage` to persist:
 - User login session
 - Saved preferences (genres, language, mood)
 - User ratings for movies
-- Selected seats for current booking
 
 ## 🔐 Security Notes
 
@@ -277,8 +241,8 @@ Uses `localStorage` to persist:
 ## 📞 Support
 
 For issues or questions:
-- Email: support@cinebook.com
-- Phone: +1-800-CINEMA
+- Email: dhileepkumar2007@gmail.com
+- Phone: +91-630193XXXX
 
 ## 📄 License
 
